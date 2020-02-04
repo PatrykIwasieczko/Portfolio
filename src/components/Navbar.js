@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className="navbar">
             <ul>
                 {links.map(link => (
-                    <li>
+                    <li key={link.name}>
                         <NavLink to={link.url}>{link.name}</NavLink>
                     </li>
                 ))}
