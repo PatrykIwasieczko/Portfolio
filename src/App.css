@@ -121,7 +121,7 @@ a {
   color: #eece1a;
 }
 
-.projects-container {
+.projects-list .projects-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -129,28 +129,28 @@ a {
   grid-gap: 2rem;
 }
 
-.projects-container .project img {
+.projects-list .projects-container .project img {
   width: 100%;
   border-radius: 10px;
   border: 1px solid #777;
 }
 
-.projects-container .project .title {
+.projects-list .projects-container .project .title {
   font-size: 2.5rem;
 }
 
-.projects-container .project .description {
+.projects-list .projects-container .project .description {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
-.projects-container .project a {
+.projects-list .projects-container .project a {
   text-transform: uppercase;
   padding: 0.2rem 0;
   position: relative;
 }
 
-.projects-container .project a:before {
+.projects-list .projects-container .project a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -165,14 +165,20 @@ a {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.projects-container .project a:hover:before {
+.projects-list .projects-container .project a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
 
-.projects-container .project a i {
+.projects-list .projects-container .project a i {
   padding-left: 0.5rem;
+}
+
+.projects-list .button {
+  display: block;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .skills-container h1 {
@@ -199,5 +205,79 @@ a {
 
 .skills-container .skills li {
   text-align: center;
+}
+
+.about .title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about h1,
+.about h2 {
+  padding-top: 4rem;
+}
+
+.about .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.about .links a {
+  margin: 0 2rem;
+}
+
+.underlined-link {
+  position: relative;
+}
+
+.underlined-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ddd;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.underlined-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.underlined-link i {
+  padding-left: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #ddd;
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #f2d849;
 }
 /*# sourceMappingURL=App.css.map */

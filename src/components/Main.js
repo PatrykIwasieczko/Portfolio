@@ -63,13 +63,21 @@ class Main extends Component {
                     </h1>
                     <h2>Welcome To My Portfolio</h2>
                     <div className="icons">
-                        <a href="#!">
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://www.linkedin.com/in/patryk-iwasieczko-7a997b137/"
+                        >
                             <i className="fab fa-linkedin fa-2x"></i>
                         </a>
-                        <a href="#!">
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://github.com/PatrykIwasieczko"
+                        >
                             <i className="fab fa-github fa-2x"></i>
                         </a>
-                        <a href="#!">
+                        <a href="mailto:patryk.iwasieczko@gmail.com">
                             <i className="fas fa-envelope fa-2x"></i>
                         </a>
                     </div>

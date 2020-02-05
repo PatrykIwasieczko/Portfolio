@@ -7,8 +7,7 @@ const Navbar = () => {
         { name: "Home", url: "/" },
         { name: "About Me", url: "/about" },
         { name: "Projects", url: "/projects" },
-        { name: "Skills", url: "/skills" },
-        { name: "Contact", url: "/contact" }
+        { name: "Skills", url: "/skills" }
     ];
     return (
         <nav className="navbar">

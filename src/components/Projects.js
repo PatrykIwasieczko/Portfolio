@@ -5,13 +5,13 @@ class Projects extends Component {
     state = {
         projects: [
             {
-                id: 1,
+                id: "spaceX",
                 img: "/assets/image.jpg",
-                title: "title",
+                title: "SpaceX launches",
                 description: "description"
             },
             {
-                id: 2,
+                id: "2",
                 img: "/assets/image.jpg",
                 title: "title",
                 description: "desc"
@@ -21,7 +21,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container projects-list">
                 <div className="projects-container">
                     {this.state.projects.map(project => (
                         <div key={project.id} className="project">
@@ -36,6 +36,16 @@ class Projects extends Component {
                             </NavLink>
                         </div>
                     ))}
+                </div>
+                <div className="button">
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://github.com/PatrykIwasieczko"
+                        className="btn"
+                    >
+                        Check more projects on my github
+                    </a>
                 </div>
             </div>
         );
