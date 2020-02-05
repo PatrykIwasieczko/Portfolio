@@ -174,4 +174,30 @@ a {
 .projects-container .project a i {
   padding-left: 0.5rem;
 }
+
+.skills-container h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skills-container .intro {
+  margin: 2rem 0;
+}
+
+.skills-container .heading {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.skills-container .skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+  grid-gap: 2rem;
+}
+
+.skills-container .skills li {
+  text-align: center;
+}
 /*# sourceMappingURL=App.css.map */
