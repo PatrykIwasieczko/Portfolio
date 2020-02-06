@@ -12,6 +12,7 @@ import About from "./components/About";
 
 // Pages
 import SpaceX from "./pages/SpaceX";
+import Blog from "./pages/Blog";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/skills" component={Skills} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects/spacex" component={SpaceX} />
+            <Route exact path="/projects/blog" component={Blog} />
             <Redirect to="/" />
         </BrowserRouter>
     );

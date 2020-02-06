@@ -5,17 +5,18 @@ class Projects extends Component {
     state = {
         projects: [
             {
+                id: "blog",
+                img: "/assets/image.jpg",
+                title: "Blog",
+                description:
+                    "Blog about healthy life created with MERN stack (MongoDB, Express, React and NodeJS)."
+            },
+            {
                 id: "spaceX",
                 img: "/assets/image.jpg",
                 title: "SpaceX launches",
                 description:
                     "App displaying data about SpaceX missions into space."
-            },
-            {
-                id: "2",
-                img: "/assets/image.jpg",
-                title: "title",
-                description: "desc"
             }
         ]
     };

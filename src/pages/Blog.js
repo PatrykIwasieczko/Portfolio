@@ -1,30 +1,33 @@
 import React, { Component } from "react";
 
-class SpaceX extends Component {
+class Blog extends Component {
     render() {
         return (
             <div className="container single-project">
-                <h1 className="title">SpaceX Launches</h1>
+                <h1 className="title">Blog</h1>
                 <p>
-                    SpaceX launches is a project I put together after learning
-                    the basics of GraphQL. This application was the perfect way
-                    to improve my understanding of making queries and managing
-                    larger sets of data. In this project, I utilized SpaceX API
-                    to gather the data about company's space missions.
+                    Blog is a React Application for people who want to stay fit
+                    and healthy. I built this project from scratch with React,
+                    Redux. I used Sass to create my mini-framework, which helped
+                    me styling components quickly. Application was connected to
+                    API created with NodeJS and noSQL database - MongoDB, where
+                    all the necessary data were stored.
                 </p>
                 <div className="table">
                     <div>
                         <h2>Stack</h2>
                         <p>React</p>
+                        <p>Redux</p>
                         <p>Sass</p>
-                        <p>GraphQL</p>
+                        <p>NodeJS</p>
+                        <p>MongoDB</p>
                     </div>
                     <div>
                         <h2>Code</h2>
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://github.com/PatrykIwasieczko/SpaceX-launches"
+                            href="https://github.com/PatrykIwasieczko/blog-mern"
                             className="underlined-link"
                         >
                             Repository
@@ -42,18 +45,20 @@ class SpaceX extends Component {
                     <h1>Project goal</h1>
                     <p>
                         As the main purpose of this project was to improve my
-                        comprehension of GraphQL and APIs in general. Besides
-                        this, I also wanted to make an application containing
-                        interesting informations to the users fond of
-                        technology.
+                        comprehension of React and NodeJS in general. Besides
+                        this, I also wanted to create an application that would
+                        reach the production and would become the source of
+                        knowledge about healthy life.
                     </p>
                 </div>
                 <div className="layout">
                     <div className="left">
                         <ul>
                             <li>React</li>
+                            <li>Redux</li>
                             <li>Sass</li>
-                            <li>GraphQL</li>
+                            <li>NodeJS</li>
+                            <li>MongoDB</li>
                         </ul>
                     </div>
                     <div className="right">
@@ -61,13 +66,17 @@ class SpaceX extends Component {
                         <p>
                             For this project I used React because of its ease of
                             use and the ability to smoothly manipulate states
-                            without having to re-render the pages.
+                            without having to re-render the pages. Redux was a
+                            necessary addition to the project because of its
+                            ease of managing global state and passing data
+                            between components.
                         </p>
                         <p>
-                            GraphQL was mainly chosen because I wanted to
-                            improve my abilities with it, but also because their
-                            server performance is extremely fast, and I knew
-                            there wouldn't be any wait time.
+                            NodeJS was mainly chosen because I wanted to improve
+                            my abilities with it as well as its based on
+                            JavaScript, in which I feel the best at. NodeJS is
+                            highly compatible with Mongo so I implemented it as
+                            database.
                         </p>
                     </div>
                 </div>
@@ -76,4 +85,4 @@ class SpaceX extends Component {
     }
 }
 
-export default SpaceX;
+export default Blog;

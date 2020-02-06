@@ -141,6 +141,7 @@ a {
 
 .projects-list .projects-container .project .description {
   margin-bottom: 2rem;
+  width: 70%;
 }
 
 .projects-list .projects-container .project a {
