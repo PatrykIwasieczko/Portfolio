@@ -8,7 +8,8 @@ class Projects extends Component {
                 id: "spaceX",
                 img: "/assets/image.jpg",
                 title: "SpaceX launches",
-                description: "description"
+                description:
+                    "App displaying data about SpaceX missions into space."
             },
             {
                 id: "2",
@@ -27,9 +28,9 @@ class Projects extends Component {
                         <div key={project.id} className="project">
                             <img src={project.img} alt="" />
                             <h2 className="title">{project.title}</h2>
-                            <div className="description">
-                                {project.description}
-                            </div>
+
+                            <p className="description">{project.description}</p>
+
                             <NavLink to={`/projects/${project.id}`}>
                                 View project
                                 <i className="fas fa-arrow-right"></i>

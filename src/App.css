@@ -140,7 +140,6 @@ a {
 }
 
 .projects-list .projects-container .project .description {
-  font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
@@ -232,6 +231,64 @@ a {
 
 .about .links a {
   margin: 0 2rem;
+}
+
+.single-project .title {
+  padding-top: 3rem;
+  font-size: 3rem;
+}
+
+.single-project .table {
+  margin: 2rem 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.single-project .table div h2 {
+  margin-bottom: 0.5rem;
+}
+
+.single-project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.single-project .goal {
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.single-project .layout {
+  margin: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.single-project .layout .left {
+  width: 100%;
+}
+
+.single-project .layout .right {
+  text-align: left;
+  width: 100%;
+}
+
+.single-project .layout .right .web-stack {
+  margin-bottom: 2rem;
+}
+
+.single-project .layout .right p {
+  margin-bottom: 4rem;
 }
 
 .underlined-link {
